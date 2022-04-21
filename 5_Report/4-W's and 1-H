@@ -1,0 +1,28 @@
+WHAT:
+
+
+Generally, street lights are switched on for whole night and during the day, they are switched off.
+But during the night time, street lights are not necessary if there is no traffic.
+Saving of this energy is very important factor these days as energy resources are getting reduced day by day.
+
+WHY:
+
+Street Lights are turned ON only when there is necessity and thus encouraging power savings.
+In order to ensure that there is no uneccesary power wastage
+
+
+WHEN:
+
+We can us this system anytime we want to switch On or Off the street lights accordingly
+
+
+WHO:
+
+Everyone who wants to save energy and avoid wastage of electricity
+
+
+HOW:
+
+Street lights are switched on depending on the intensity of the Sun light on LDR. If the intensity of Sunlight on light dependent resistor is low,
+its resistance value is high. This value increases and becomes high when it is completely in dark. 
+This resistance value decides when the street lights are required to switch ON.
