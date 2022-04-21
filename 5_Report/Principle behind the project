@@ -1,0 +1,13 @@
+The proposed system consists of Atmega8 microcontroller, LDR, PIR sensor(push button) and RTC.
+This system controls the street lights using light dependent resistor and PIR sensor.
+
+Street lights are switched on depending on the intensity of the Sun light on LDR. 
+If the intensity of Sunlight on light dependent resistor is low, its resistance value is high. 
+This value increases and becomes high when it is completely in dark. This resistance value decides when the street lights are required to switch ON.
+
+As the resistance value is maximum in the midnights, real time clock comes into the play. 
+The controller checks peak time during which there is no traffic and switch OFF the lights.
+When there is any vehicle on the road, it is detected by the PIR sensor.
+
+Whenever PIR sensor is detected it just indicates the microcontroller to switch on the street lights.
+Then lights are switched on for 2 to 3 minutes and switched off automatically.
