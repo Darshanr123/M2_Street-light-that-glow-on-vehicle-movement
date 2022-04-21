@@ -1,0 +1,113 @@
+<circuit type="simulide_1.0" rev="1007" stepSize="1000000" stepsPS="1000000" NLsteps="100000" animate="0" >
+
+<item itemtype="DS1307" CircId="DS1307-19" mainComp="false" Show_id="false" Show_Val="false" Pos="1084,612" rotation="0" hflip="1" vflip="1" label="DS1307-19" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="LDR" CircId="LDR-20" mainComp="false" Show_id="false" Show_Val="false" Pos="988,488" rotation="0" hflip="1" vflip="1" label="LDR-20" idLabPos="-16,-24" labelrot="0" valLabPos="-16,30" valLabRot="0" Lux="1 Lux" Min_Lux="0 Lux" Max_Lux="1000 Lux" Dial_Step="0 Lux" Gamma="0.8582" R1="127410 Ω" />
+
+<item itemtype="Diode" CircId="Diode-21" mainComp="false" Show_id="false" Show_Val="false" Pos="1012,724" rotation="90" hflip="1" vflip="1" label="Diode-21" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Model="Diode Default" Threshold="0.805905 V" MaxCurrent="1 A" Resistance="0.05 Ω" BrkDownV="0 V" SatCurrent="171.435 nA" EmCoef="2" />
+
+<item itemtype="Diode" CircId="Diode-22" mainComp="false" Show_id="false" Show_Val="false" Pos="972,724" rotation="90" hflip="1" vflip="1" label="Diode-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Model="Diode Default" Threshold="0.805905 V" MaxCurrent="1 A" Resistance="0.05 Ω" BrkDownV="0 V" SatCurrent="171.435 nA" EmCoef="2" />
+
+<item itemtype="Diode" CircId="Diode-23" mainComp="false" Show_id="false" Show_Val="false" Pos="1056,724" rotation="90" hflip="1" vflip="1" label="Diode-23" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Model="Diode Default" Threshold="0.805905 V" MaxCurrent="1 A" Resistance="0.05 Ω" BrkDownV="0 V" SatCurrent="171.435 nA" EmCoef="2" />
+
+<item itemtype="Resistor" CircId="Resistor-24" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1172,692" rotation="90" hflip="1" vflip="1" label="Resistor-24" idLabPos="-16,-24" labelrot="0" valLabPos="-11,9" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Hd44780" CircId="Hd44780-26" mainComp="false" Show_id="true" Show_Val="false" Pos="760,436" rotation="0" hflip="1" vflip="1" label="Hd44780-26" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2 _Lines" Cols="16 _Chars." />
+
+<item itemtype="MCU" CircId="mega8-28" mainComp="false" Show_id="true" Show_Val="false" Pos="904,548" rotation="0" hflip="1" vflip="1" label="mega8-28" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Auto_Load="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" />
+
+<item itemtype="Ground" CircId="Ground-31" mainComp="false" Show_id="false" Show_Val="false" Pos="772,540" rotation="0" hflip="1" vflip="1" label="Ground-31" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-38" mainComp="false" Show_id="false" Show_Val="false" Pos="1024,540" rotation="0" hflip="1" vflip="1" label="Ground-38" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-59" mainComp="false" Show_id="false" Show_Val="false" Pos="1012,780" rotation="0" hflip="1" vflip="1" label="Ground-59" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Switch" CircId="Switch-63" mainComp="false" Show_id="false" Show_Val="false" Pos="1100,660" rotation="0" hflip="1" vflip="1" label="Switch-63" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Rail" CircId="Rail-80" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="1080,560" rotation="180" hflip="1" vflip="1" label="Rail-80" idLabPos="-16,-24" labelrot="0" valLabPos="-16,8" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Ground" CircId="Ground-86" mainComp="false" Show_id="false" Show_Val="false" Pos="1172,760" rotation="0" hflip="1" vflip="1" label="Ground-86" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Rail" CircId="Rail-87" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="1188,616" rotation="90" hflip="1" vflip="1" label="Rail-87" idLabPos="-16,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" />
+
+<item itemtype="Node" CircId="Node-45" mainComp="false" Pos="972,676" />
+
+<item itemtype="Node" CircId="Node-52" mainComp="false" Pos="1012,676" />
+
+<item itemtype="Node" CircId="Node-56" mainComp="false" Pos="1012,752" />
+
+<item itemtype="Node" CircId="Node-61" mainComp="false" Pos="1012,744" />
+
+<item itemtype="Node" CircId="Node-67" mainComp="false" Pos="972,636" />
+
+<item itemtype="Node" CircId="Node-70" mainComp="false" Pos="956,636" />
+
+<item itemtype="Node" CircId="Node-82" mainComp="false" Pos="944,616" />
+
+<item itemtype="Node" CircId="Node-88" mainComp="false" Pos="1172,660" />
+
+<item itemtype="Connector" uid="Connector-29" startpinid="Hd44780-26-PinRS" endpinid="mega8-28-PORTD0" pointList="776,444,776,564,896,564" />
+
+<item itemtype="Connector" uid="Connector-30" startpinid="Hd44780-26-PinEn" endpinid="mega8-28-PORTD1" pointList="792,444,792,572,896,572" />
+
+<item itemtype="Connector" uid="Connector-32" startpinid="Hd44780-26-PinRW" endpinid="Ground-31-Gnd" pointList="784,444,784,524,772,524" />
+
+<item itemtype="Connector" uid="Connector-33" startpinid="Hd44780-26-dataPin4" endpinid="mega8-28-PORTD4" pointList="832,444,832,596,896,596" />
+
+<item itemtype="Connector" uid="Connector-34" startpinid="Hd44780-26-dataPin5" endpinid="mega8-28-PORTD5" pointList="840,444,840,636,896,636" />
+
+<item itemtype="Connector" uid="Connector-35" startpinid="Hd44780-26-dataPin6" endpinid="mega8-28-PORTD6" pointList="848,444,848,644,896,644" />
+
+<item itemtype="Connector" uid="Connector-36" startpinid="Hd44780-26-dataPin7" endpinid="mega8-28-PORTD7" pointList="856,444,856,652,896,652" />
+
+<item itemtype="Connector" uid="Connector-37" startpinid="mega8-28-PORTC5" endpinid="LDR-20-lPin" pointList="944,556,944,488,972,488" />
+
+<item itemtype="Connector" uid="Connector-42" startpinid="DS1307-19-PinSDA" endpinid="mega8-28-PORTC0" pointList="1048,600,944,600,944,596" />
+
+<item itemtype="Connector" uid="Connector-43" startpinid="DS1307-19-PinSCL" endpinid="mega8-28-PORTC1" pointList="1048,608,976,608,976,588,944,588" />
+
+<item itemtype="Connector" uid="Connector-44" startpinid="mega8-28-PORTB4" endpinid="Node-70-0" pointList="944,636,956,636" />
+
+<item itemtype="Connector" uid="Connector-46" startpinid="Node-45-2" endpinid="Diode-22-lPin" pointList="972,676,972,708" />
+
+<item itemtype="Connector" uid="Connector-47" startpinid="Node-45-1" endpinid="Node-52-0" pointList="972,676,1012,676" />
+
+<item itemtype="Connector" uid="Connector-51" startpinid="Diode-21-lPin" endpinid="Node-52-1" pointList="1012,708,1012,676" />
+
+<item itemtype="Connector" uid="Connector-53" startpinid="Node-52-2" endpinid="Diode-23-lPin" pointList="1012,676,1056,676,1056,708" />
+
+<item itemtype="Connector" uid="Connector-54" startpinid="Diode-22-rPin" endpinid="Node-56-0" pointList="972,740,972,752,1012,752" />
+
+<item itemtype="Connector" uid="Connector-55" startpinid="Diode-21-rPin" endpinid="Node-61-0" pointList="1012,740,1012,744" />
+
+<item itemtype="Connector" uid="Connector-57" startpinid="Node-56-2" endpinid="Diode-23-rPin" pointList="1012,752,1056,752,1056,740" />
+
+<item itemtype="Connector" uid="Connector-60" startpinid="Ground-59-Gnd" endpinid="Node-61-1" pointList="1012,764,1012,744" />
+
+<item itemtype="Connector" uid="Connector-62" startpinid="Node-61-2" endpinid="Node-56-1" pointList="1012,744,1012,752" />
+
+<item itemtype="Connector" uid="Connector-39" startpinid="LDR-20-rPin" endpinid="Ground-38-Gnd" pointList="1004,488,1024,488,1024,524" />
+
+<item itemtype="Connector" uid="Connector-68" startpinid="Node-67-2" endpinid="Node-45-0" pointList="972,636,972,676" />
+
+<item itemtype="Connector" uid="Connector-69" startpinid="Node-67-1" endpinid="Node-70-1" pointList="972,636,956,636" />
+
+<item itemtype="Connector" uid="Connector-71" startpinid="Node-70-2" endpinid="Node-67-0" pointList="956,636,972,636" />
+
+<item itemtype="Connector" uid="Connector-72" startpinid="mega8-28-PORTB5" endpinid="Switch-63-pinP0" pointList="944,628,1028,628,1028,660,1084,660" />
+
+<item itemtype="Connector" uid="Connector-73" startpinid="Switch-63-switch0pinN" endpinid="Node-88-0" pointList="1116,660,1172,660" />
+
+<item itemtype="Connector" uid="Connector-81" startpinid="mega8-28-PORTV1" endpinid="Node-82-0" pointList="944,612,944,616" />
+
+<item itemtype="Connector" uid="Connector-83" startpinid="Node-82-2" endpinid="mega8-28-PORTV0" pointList="944,616,944,620" />
+
+<item itemtype="Connector" uid="Connector-84" startpinid="Node-82-1" endpinid="Rail-80-outnod" pointList="944,616,1028,616,1028,560,1064,560" />
+
+<item itemtype="Connector" uid="Connector-89" startpinid="Node-88-2" endpinid="Resistor-24-lPin" pointList="1172,660,1172,676" />
+
+<item itemtype="Connector" uid="Connector-90" startpinid="Node-88-1" endpinid="Rail-87-outnod" pointList="1172,660,1188,660,1188,632" />
+
+<item itemtype="Connector" uid="Connector-91" startpinid="Resistor-24-rPin" endpinid="Ground-86-Gnd" pointList="1172,708,1172,744" />
+
+</circuit>
